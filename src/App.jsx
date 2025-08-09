@@ -1,5 +1,14 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+
 function App() {
-  return <div className="bg-red-400">hello</div>;
+  return (
+    <main className="flex">
+      <Navbar />
+      <HeroSection />
+    </main>
+  );
 }
 
 export default App;
