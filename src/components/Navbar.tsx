@@ -1,3 +1,5 @@
+import { ChevronDown } from "lucide-react";
+
 function Navbar() {
   return (
     <nav className="w-full text-white fixed top-0 left-0 flex items-center justify-between px-[100px] py-[32px] bg-transparent z-50">
@@ -16,7 +18,10 @@ function Navbar() {
       <div className="flex items-center gap-8 text-sm">
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Programs</a>
+        <p className="flex items-end gap-2">
+          <a href="#">Programs</a>
+          <ChevronDown size={16} />
+        </p>
         <a href="#">Success Stories</a>
         <a href="#" className="hover:text-gray-300">
           Resources

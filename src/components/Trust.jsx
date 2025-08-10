@@ -3,11 +3,11 @@ import { SiDell, SiHp, SiNasa, SiSamsung } from "react-icons/si";
 
 function Trust() {
   return (
-    <section className="flex flex-col items-center py-12">
+    <section className="flex mt-12 flex-col items-center py-12">
       <h2 className="text-center text-lg font-semibold mb-6">
         Trusted by Leading Brands
       </h2>
-      <div className="flex flex-wrap justify-center items-center gap-10 grayscale  transition">
+      <div className="flex flex-wrap justify-center items-center gap-7 grayscale  transition">
         <img src="/compaq.svg" alt="Compaq" className="h-10" />
         <img src="/ibm.svg" alt="IBM" className="h-8" />
         <img src="/LCRA.svg" alt="LCRA" className="h-5" />

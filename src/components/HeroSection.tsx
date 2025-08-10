@@ -8,7 +8,7 @@ function HeroSection() {
     >
       <div className="absolute inset-0 bg-black/30"></div>
 
-      <div className="relative pt-[251px] pl-[50px]  z-10 flex flex-col items-center gap-0 justify-center h-full text-center text-white">
+      <div className="relative pt-[251px] pl-[10px]  z-10 flex flex-col items-center gap-0 justify-center h-full text-center text-white">
         <button className="bg-black/60 px-5 py-1  rounded-full text-xs tracking-wide mb-6 border border-gray-500">
           → FOR TECH_DRIVEN LEADERS
         </button>
