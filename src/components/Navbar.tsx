@@ -7,7 +7,6 @@ function Navbar() {
   return (
     <nav className="w-full absolute top-0 left-0 bg-transparent text-white z-50">
       <div className="flex items-center justify-between px-6 md:px-[100px] py-4">
-        {/* Logo Section */}
         <div className="flex items-center gap-3">
           <img
             src="/logo.svg"
@@ -20,7 +19,6 @@ function Navbar() {
           </div>
         </div>
 
-        {/* Desktop Nav Links */}
         <div className="md:flex hidden items-center gap-8 text-sm">
           <a href="#" className="hover:text-teal-400 transition">
             Home
@@ -40,12 +38,10 @@ function Navbar() {
           </a>
         </div>
 
-        {/* Desktop Button */}
         <button className="bg-[#2daeac] md:block hidden text-white rounded-full px-5 py-2 font-medium hover:bg-[#249b99] transition">
           Book a Session
         </button>
 
-        {/* Mobile Hamburger */}
         <div
           className="md:hidden block"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -54,7 +50,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
       {mobileOpen && (
         <div className="md:hidden bg-gray-900 text-white px-6 py-4 space-y-4">
           <a href="#" className="block hover:text-teal-400">

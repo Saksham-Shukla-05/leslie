@@ -4,23 +4,23 @@ import Trust from "./components/Trust";
 import ComingSoon from "./components/ComingSoon";
 import Intro from "./components/Intro";
 import RealResult from "./components/RealResult";
-import WhatOtherSay from "./components/WhatOtherSay";
 import BigMoment from "./components/BigMoment";
 import HowLeslieHelp from "./components/HowLeslieHelp";
 import InTheirOwnWords from "./components/InTheirOwnWords";
 import SomeThing_Happen from "./components/SomeThing_Happen";
 import Footer from "./components/Footer";
+import OtherSays from "./components/OtherSays";
 
 function App() {
   return (
-    <main>
+    <main className="flex flex-col gap-5">
       <Navbar />
       <HeroSection />
       <Trust />
       <ComingSoon />
       <Intro />
       <RealResult />
-      <WhatOtherSay />
+      <OtherSays />
       <BigMoment />
       <HowLeslieHelp />
       <InTheirOwnWords />
