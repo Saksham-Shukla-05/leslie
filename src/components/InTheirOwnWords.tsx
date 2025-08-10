@@ -12,38 +12,31 @@ function InTheirOwnWords() {
         </p>
       </div>
       <div className="flex gap-4">
-        <div className="p-3 h-full overflow-hidden">
-          <div className="w-full h-70">
+        <div className="p-3 h-full  ">
+          <div className="w-full h-70 rounded-3xl border overflow-hidden">
             <img className="w-full h-full" src="/leslie2.jpg" alt="" />
           </div>
-          <p className="font-bold">Seth Morris</p>
-          <p className="text-sm">
+          <p className="p-2 font-bold">Seth Morris</p>
+          <p className="p-2 -mt-2 text-sm">
             VP, Economic Development Greater Waco Chamber
           </p>
         </div>
-        <div className="p-3 h-full overflow-hidden">
-          <div className="w-full h-70">
+        <div className="p-3 h-full  ">
+          <div className="w-full h-70 rounded-3xl border overflow-hidden">
             <img className="w-full h-full" src="/leslie2.jpg" alt="" />
           </div>
-          <p className="font-bold">Isha Desai</p>
-          <p className="text-sm">Security Technical Specialist IBM</p>
+          <p className="p-2 font-bold">Isha Desai</p>
+          <p className="p-2 -mt-2 text-sm">Security Technical Specialist IBM</p>
         </div>
-        <div className="p-3 h-full overflow-hidden">
-          <div className="w-full h-70">
+        <div className="p-3 h-full  ">
+          <div className="w-full h-70 rounded-3xl border overflow-hidden">
             <img className="w-full h-full" src="/leslie2.jpg" alt="" />
           </div>
-          <p className="font-bold">Andrew Bluiett P.E.</p>
-          <p className="text-sm">
+          <p className="p-2 font-bold">Andrew Bluiett P.E.</p>
+          <p className="p-2 -mt-2 text-sm">
             Senior Engineer, Lower Colorado River Authority
           </p>
         </div>
-      </div>
-
-      <div className="mt-4 flex gap-4 items-center text-sm bg-teal-500 text-black rounded-full py-2 px-8 font-medium hover:bg-teal-600 transition">
-        <button className="">
-          Want this for your team as well ? Let's talk{" "}
-        </button>
-        <ArrowRight />
       </div>
     </section>
   );

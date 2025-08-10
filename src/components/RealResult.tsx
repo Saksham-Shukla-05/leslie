@@ -25,7 +25,7 @@ function RealResult() {
         </div>
 
         <div className="flex w-full justify-between gap-7">
-          <div className="flex flex-col gap-3 border bg-#FCFAF7 p-3 rounded-2xl">
+          <div className="flex flex-col gap-3 border bg-[#ebece9] p-3 rounded-2xl">
             <p>
               <Handshake color="teal" />
             </p>
@@ -35,14 +35,14 @@ function RealResult() {
               each other.
             </p>
           </div>
-          <div className="flex flex-col gap-3 border bg-#FCFAF7 p-3 rounded-2xl">
+          <div className="flex flex-col gap-3 border bg-[#ebece9] p-3 rounded-2xl">
             <p>
               <Magnet color="teal" />
             </p>
             <p className="font-bold">People Stay. Teams Grow.</p>
             <p>Turnover dropped. Loyalty grew. Culture became magnetic.</p>
           </div>
-          <div className="flex flex-col gap-3 border bg-#FCFAF7 p-3 rounded-2xl">
+          <div className="flex flex-col gap-3 border bg-[#ebece9] p-3 rounded-2xl">
             <p>
               <BookCheck color="teal" />
             </p>
@@ -52,14 +52,14 @@ function RealResult() {
         </div>
 
         <div className="flex w-full justify-between gap-7">
-          <div className="flex flex-col flex-1 gap-3 border bg-#FCFAF7 p-3 rounded-2xl">
+          <div className="flex flex-col flex-1 gap-3 border bg-[#ebece9] p-3 rounded-2xl">
             <p>
               <Flower color="teal" />
             </p>
             <p className="font-bold">Clarity in the Chaos</p>
             <p>Even in messy change, leaders stood steady-& led boldly.</p>
           </div>
-          <div className="flex flex-col flex-1 gap-3 border bg-#FCFAF7 p-3 rounded-2xl">
+          <div className="flex flex-col flex-1 gap-3 border bg-[#ebece9] p-3 rounded-2xl">
             <p>
               <MessageCircle color="teal" />
             </p>

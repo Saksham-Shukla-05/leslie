@@ -9,6 +9,8 @@ import WhatOtherSay from "./components/whatOtherSay";
 import BigMoment from "./components/BigMoment";
 import HowLeslieHelp from "./components/HowLeslieHelp";
 import InTheirOwnWords from "./components/InTheirOwnWords";
+import SomeThing_Happen from "./components/SomeThing_Happen";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <BigMoment />
       <HowLeslieHelp />
       <InTheirOwnWords />
+      <SomeThing_Happen />
+      <Footer />
     </main>
   );
 }
