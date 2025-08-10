@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import Trust from "./components/Trust";
 
 function App() {
   return (
-    <main className="flex">
+    <main>
       <Navbar />
       <HeroSection />
+      <Trust />
     </main>
   );
 }

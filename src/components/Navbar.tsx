@@ -4,7 +4,7 @@ function Navbar() {
       {/* Logo Section */}
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 bg-gray-300 flex items-center justify-center">
-          SVG
+          <img src="/logo.svg" alt="" />
         </div>
         <div className="uppercase leading-tight">
           <p className="text-sm font-semibold">Leslie Martinich</p>
