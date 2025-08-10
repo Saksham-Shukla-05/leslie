@@ -7,7 +7,7 @@ function Trust() {
       <h2 className="text-center text-lg font-semibold mb-6">
         Trusted by Leading Brands
       </h2>
-      <div className="flex flex-wrap justify-center items-center gap-7 grayscale  transition">
+      <div className="flex flex-wrap justify-center items-center gap-6 grayscale  transition">
         <img src="/compaq.svg" alt="Compaq" className="h-10" />
         <img src="/ibm.svg" alt="IBM" className="h-8" />
         <img src="/LCRA.svg" alt="LCRA" className="h-5" />

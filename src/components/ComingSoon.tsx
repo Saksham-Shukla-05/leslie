@@ -2,9 +2,9 @@ import React from "react";
 
 function ComingSoon() {
   return (
-    <div className="mt-32   w-full flex flex-col items-center justify-center gap-32">
+    <div className="mt-32   w-full flex flex-col items-center justify-center gap-12">
       <div className="relative w-full">
-        <h2 className="text-8xl uppercase w-full   text-center p-2 text-teal-600 opacity-20 tracking-widest">
+        <h2 className="text-8xl uppercase w-full   text-center p-2 text-teal-600 opacity-20 leading-relaxed tracking-widest">
           Coming Soon
         </h2>
 
